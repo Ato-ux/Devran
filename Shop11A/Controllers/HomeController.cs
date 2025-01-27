@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 using Shop11A.Models;
 
 namespace Shop11A.Controllers
@@ -16,8 +17,10 @@ namespace Shop11A.Controllers
         public List<Product> products = new List<Product>
         {
             new Product{ Id = 1, Name = "Tablet PGMT 11a", Description = "Super mega giga tablet PGMT 11a", Price = 2000.11M, ImageUrl = "/images/t1.jpg" },
-            new Product{ Id = 2, Name = "Tablet PGMT 11b", Description = "Super mega giga tablet PGMT 11b", Price = 2234.11M, ImageUrl = "/images/t2.jpg" },
-            new Product{ Id = 3, Name = "Tablet PGMT 12b", Description = "Super mega giga tablet PGMT 12b", Price = 2500.11M, ImageUrl = "/images/t3.jpg" },
+            new Product{ Id = 2, Name = "Telefon PGMT 11b", Description = "Super mega giga telefon" + "PGMT 11b", Price = 2234.11M, ImageUrl = "/images/Product-details-main-505193 (1).jpg" },
+
+            new Product{ Id = 3, Name = "Tablet PGMT 12b", Description = "Super mega giga tablet PGMT 12b", Price = 2500.11M, ImageUrl = "/images/q2CKM6fWshyLtEQGNdDXu7.jpg" },
+
 
             new Product{ Id = 4, Name = "MehanoPhone 11a", Description = "Super mega giga MehanoPhone 11a", Price = 1500.11M, ImageUrl = "/images/p1.jpg" },
             new Product{ Id = 5, Name = "MehanoPhone 11b", Description = "Super mega giga MehanoPhone 11b", Price = 1600.11M, ImageUrl = "/images/p2.jpg" },
